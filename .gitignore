@@ -1,0 +1,60 @@
+**/target/
+**/cached-target/
+**/target-aggregate/
+
+.metadata
+
+**/.vscode/
+
+bin/
+
+tmp/
+/out/
+
+*.tmp
+
+*.bak
+
+*.swp
+
+*.log
+
+*~.nib
+
+*.launch
+
+# Java annotation processor (APT)
+
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+
+.buildpath
+
+# sbteclipse plugin
+
+.target
+
+# Tern plugin
+
+.tern-project
+
+# TeXlipse plugin
+
+.texlipse
+
+# STS (Spring Tool Suite)
+
+.springBeans
+
+# Code Recommenders
+
+.recommenders/
+
+# Annotation Processing
+
+.apt_generated/
+
+
+/.idea/
+*.iml

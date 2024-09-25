@@ -34,6 +34,8 @@ class UiController @Activate constructor(
                 }.lastOrNull()?.await()
             }
             println("Done - please check log for exceptions")
-        }.start()
+        }
+            .apply { isDaemon = true }
+            .start()
     }
 }
